@@ -1,0 +1,7 @@
+.otp_Fields {
+	display: grid !important;
+	grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
+	gap: 1rem;
+	place-items: center;
+	width: 100%;
+}

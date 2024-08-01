@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1280px) {
+	.chat {
+		height: 60vh;
+	}
+}
+
+@media only screen and (max-height: 799px) {
+	.chatHeight {
+		height: 78vh;
+	}
+}

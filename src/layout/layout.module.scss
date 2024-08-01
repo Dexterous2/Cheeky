@@ -1,0 +1,21 @@
+.bg_sidebar{
+    background-image: linear-gradient(to right, #00b4b3, #00a7bc, #0099c1, #0089c2, #1078bc);
+}
+
+@media only screen and (max-width:321px){
+    .aside_area_height{
+        height: calc(100vh - 5.3rem) !important;
+    }
+}
+
+.aside_area_height::-webkit-scrollbar{
+    background: #00b4b42f;
+    border-radius: 0.3rem;
+	width: 0.5rem;
+}
+
+.aside_area_height::-webkit-scrollbar-thumb{
+    background: #00b4b4;
+    border-radius: 0.3rem;
+	width: 0.5rem;
+}
